@@ -12,10 +12,6 @@
 		CC03DF501D11323F00E3660A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC03DF4F1D11323F00E3660A /* AppDelegate.m */; };
 		CC03DF581D11323F00E3660A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC03DF571D11323F00E3660A /* Assets.xcassets */; };
 		CC11674E1D114DF300F81E14 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC11674D1D114DF300F81E14 /* LaunchScreen.xib */; };
-		CCD23D3D2048F4D400992D14 /* XYScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD23D322048F4D400992D14 /* XYScrollView.m */; };
-		CCD23D3E2048F4D400992D14 /* XYView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD23D352048F4D400992D14 /* XYView.m */; };
-		CCD23D3F2048F4D400992D14 /* XYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD23D372048F4D400992D14 /* XYViewController.m */; };
-		CCD23D402048F4D400992D14 /* XYViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD23D3A2048F4D400992D14 /* XYViewModel.m */; };
 		CCD23D472048F56000992D14 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD23D462048F56000992D14 /* DemoViewController.m */; };
 		CCD23D4A2048F56E00992D14 /* DemoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD23D492048F56E00992D14 /* DemoModel.m */; };
 		CCD23D4D2048F57B00992D14 /* DemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD23D4C2048F57B00992D14 /* DemoView.m */; };
@@ -36,18 +32,6 @@
 		CC03DF5C1D11323F00E3660A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC11674D1D114DF300F81E14 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		CC93360B203186A1003BB19D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		CCD23D312048F4D400992D14 /* XYScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYScrollView.h; sourceTree = "<group>"; };
-		CCD23D322048F4D400992D14 /* XYScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYScrollView.m; sourceTree = "<group>"; };
-		CCD23D332048F4D400992D14 /* XYScrollViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYScrollViewProtocol.h; sourceTree = "<group>"; };
-		CCD23D342048F4D400992D14 /* XYView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYView.h; sourceTree = "<group>"; };
-		CCD23D352048F4D400992D14 /* XYView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYView.m; sourceTree = "<group>"; };
-		CCD23D362048F4D400992D14 /* XYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYViewController.h; sourceTree = "<group>"; };
-		CCD23D372048F4D400992D14 /* XYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYViewController.m; sourceTree = "<group>"; };
-		CCD23D382048F4D400992D14 /* XYViewControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYViewControllerProtocol.h; sourceTree = "<group>"; };
-		CCD23D392048F4D400992D14 /* XYViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYViewModel.h; sourceTree = "<group>"; };
-		CCD23D3A2048F4D400992D14 /* XYViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYViewModel.m; sourceTree = "<group>"; };
-		CCD23D3B2048F4D400992D14 /* XYViewModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYViewModelProtocol.h; sourceTree = "<group>"; };
-		CCD23D3C2048F4D400992D14 /* XYViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYViewProtocol.h; sourceTree = "<group>"; };
 		CCD23D452048F56000992D14 /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
 		CCD23D462048F56000992D14 /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
 		CCD23D482048F56E00992D14 /* DemoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoModel.h; sourceTree = "<group>"; };
@@ -85,7 +69,6 @@
 		CC03DF3F1D11323F00E3660A = {
 			isa = PBXGroup;
 			children = (
-				CCD23D302048F4D400992D14 /* Classes */,
 				CC03DF4A1D11323F00E3660A /* Demo */,
 				CC03DF491D11323F00E3660A /* Products */,
 				50ECD5AA68E41A5C55DC072E /* Pods */,
@@ -125,26 +108,6 @@
 				CC93360B203186A1003BB19D /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		CCD23D302048F4D400992D14 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				CCD23D312048F4D400992D14 /* XYScrollView.h */,
-				CCD23D322048F4D400992D14 /* XYScrollView.m */,
-				CCD23D332048F4D400992D14 /* XYScrollViewProtocol.h */,
-				CCD23D342048F4D400992D14 /* XYView.h */,
-				CCD23D352048F4D400992D14 /* XYView.m */,
-				CCD23D362048F4D400992D14 /* XYViewController.h */,
-				CCD23D372048F4D400992D14 /* XYViewController.m */,
-				CCD23D382048F4D400992D14 /* XYViewControllerProtocol.h */,
-				CCD23D392048F4D400992D14 /* XYViewModel.h */,
-				CCD23D3A2048F4D400992D14 /* XYViewModel.m */,
-				CCD23D3B2048F4D400992D14 /* XYViewModelProtocol.h */,
-				CCD23D3C2048F4D400992D14 /* XYViewProtocol.h */,
-			);
-			name = Classes;
-			path = ../Classes;
 			sourceTree = "<group>";
 		};
 		CCD23D412048F54900992D14 /* Model */ = {
@@ -318,17 +281,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCD23D3D2048F4D400992D14 /* XYScrollView.m in Sources */,
-				CCD23D3F2048F4D400992D14 /* XYViewController.m in Sources */,
 				CC03DF501D11323F00E3660A /* AppDelegate.m in Sources */,
 				CC03DF4D1D11323F00E3660A /* main.m in Sources */,
 				CCD23D4A2048F56E00992D14 /* DemoModel.m in Sources */,
 				CCD23D582048FB7200992D14 /* DemoViewModel.m in Sources */,
-				CCD23D3E2048F4D400992D14 /* XYView.m in Sources */,
 				CCD23D542048F8D700992D14 /* DemoViewCell.m in Sources */,
 				CCD23D472048F56000992D14 /* DemoViewController.m in Sources */,
 				CCD23D4D2048F57B00992D14 /* DemoView.m in Sources */,
-				CCD23D402048F4D400992D14 /* XYViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
