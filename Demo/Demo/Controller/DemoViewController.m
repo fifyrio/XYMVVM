@@ -23,7 +23,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    NSLog(@"viewDidLoad");
 }
 
 #pragma mark - Protocol
@@ -43,6 +43,7 @@
 }
 
 - (void)xy_bindViewModel{
+    NSLog(@"xy_bindViewModel");
 }
 
 #pragma mark - Lazy load

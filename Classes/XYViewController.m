@@ -9,6 +9,7 @@
 #import "XYViewController.h"
 #import "XYViewModelProtocol.h"
 #import <ReactiveCocoa/ReactiveCocoa.h>
+#import "NSObject+XYSwizzle.h"
 
 @interface XYViewController ()
 
@@ -20,6 +21,7 @@
     
     XYViewController *viewController = [super allocWithZone:zone];
     
+    /*
     @weakify(viewController)
     
     [[viewController rac_signalForSelector:@selector(viewDidLoad)] subscribeNext:^(id x) {
@@ -40,6 +42,8 @@
         @strongify(viewController)
         [viewController xy_updateViewConstraints];
     }];
+     */
+    [viewController xy_swizzlingOriginalSelector:@selector(viewDidLoad) swizzledSelector:@selector(xy_viewDidLoad)];
     
     return viewController;
 }
@@ -74,6 +78,11 @@
 - (void)viewWillDisappear:(BOOL)animated{
     [super viewWillDisappear:animated];
     
+}
+
+- (void)xy_viewDidLoad{
+    [self xy_addSubviews];
+    [self xy_bindViewModel];
 }
 
 #pragma mark - XYViewControllerProtocol

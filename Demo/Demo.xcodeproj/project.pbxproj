@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		9D2134A767B667D70BF94232 /* libPods-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 605291887610381C0422E5AF /* libPods-Demo.a */; };
+		BE9225BA206A0CDD008A8397 /* XYViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9225AE206A0CDD008A8397 /* XYViewModel.m */; };
+		BE9225BB206A0CDD008A8397 /* XYView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9225B0206A0CDD008A8397 /* XYView.m */; };
+		BE9225BC206A0CDD008A8397 /* XYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9225B4206A0CDD008A8397 /* XYViewController.m */; };
+		BE9225BD206A0CDD008A8397 /* XYScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9225B7206A0CDD008A8397 /* XYScrollView.m */; };
+		BE9225C0206A0FF7008A8397 /* NSObject+XYSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9225BF206A0FF7008A8397 /* NSObject+XYSwizzle.m */; };
 		CC03DF4D1D11323F00E3660A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC03DF4C1D11323F00E3660A /* main.m */; };
 		CC03DF501D11323F00E3660A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC03DF4F1D11323F00E3660A /* AppDelegate.m */; };
 		CC03DF581D11323F00E3660A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC03DF571D11323F00E3660A /* Assets.xcassets */; };
@@ -24,6 +29,20 @@
 		605291887610381C0422E5AF /* libPods-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82615431235CCBF1194EF474 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		9B899B210DD8A97934695785 /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		BE9225AE206A0CDD008A8397 /* XYViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYViewModel.m; sourceTree = "<group>"; };
+		BE9225AF206A0CDD008A8397 /* XYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYViewController.h; sourceTree = "<group>"; };
+		BE9225B0206A0CDD008A8397 /* XYView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYView.m; sourceTree = "<group>"; };
+		BE9225B1206A0CDD008A8397 /* XYScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYScrollView.h; sourceTree = "<group>"; };
+		BE9225B2206A0CDD008A8397 /* XYViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYViewModel.h; sourceTree = "<group>"; };
+		BE9225B3206A0CDD008A8397 /* XYViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYViewProtocol.h; sourceTree = "<group>"; };
+		BE9225B4206A0CDD008A8397 /* XYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYViewController.m; sourceTree = "<group>"; };
+		BE9225B5206A0CDD008A8397 /* XYScrollViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYScrollViewProtocol.h; sourceTree = "<group>"; };
+		BE9225B6206A0CDD008A8397 /* XYViewControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYViewControllerProtocol.h; sourceTree = "<group>"; };
+		BE9225B7206A0CDD008A8397 /* XYScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYScrollView.m; sourceTree = "<group>"; };
+		BE9225B8206A0CDD008A8397 /* XYView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYView.h; sourceTree = "<group>"; };
+		BE9225B9206A0CDD008A8397 /* XYViewModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYViewModelProtocol.h; sourceTree = "<group>"; };
+		BE9225BE206A0FF7008A8397 /* NSObject+XYSwizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+XYSwizzle.h"; sourceTree = "<group>"; };
+		BE9225BF206A0FF7008A8397 /* NSObject+XYSwizzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XYSwizzle.m"; sourceTree = "<group>"; };
 		CC03DF481D11323F00E3660A /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC03DF4C1D11323F00E3660A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CC03DF4E1D11323F00E3660A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -66,9 +85,32 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		BE9225AD206A0CDD008A8397 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BE9225AF206A0CDD008A8397 /* XYViewController.h */,
+				BE9225B4206A0CDD008A8397 /* XYViewController.m */,
+				BE9225B2206A0CDD008A8397 /* XYViewModel.h */,
+				BE9225AE206A0CDD008A8397 /* XYViewModel.m */,
+				BE9225B8206A0CDD008A8397 /* XYView.h */,
+				BE9225B0206A0CDD008A8397 /* XYView.m */,
+				BE9225B1206A0CDD008A8397 /* XYScrollView.h */,
+				BE9225B7206A0CDD008A8397 /* XYScrollView.m */,
+				BE9225B3206A0CDD008A8397 /* XYViewProtocol.h */,
+				BE9225B5206A0CDD008A8397 /* XYScrollViewProtocol.h */,
+				BE9225B6206A0CDD008A8397 /* XYViewControllerProtocol.h */,
+				BE9225B9206A0CDD008A8397 /* XYViewModelProtocol.h */,
+				BE9225BE206A0FF7008A8397 /* NSObject+XYSwizzle.h */,
+				BE9225BF206A0FF7008A8397 /* NSObject+XYSwizzle.m */,
+			);
+			name = Classes;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
 		CC03DF3F1D11323F00E3660A = {
 			isa = PBXGroup;
 			children = (
+				BE9225AD206A0CDD008A8397 /* Classes */,
 				CC03DF4A1D11323F00E3660A /* Demo */,
 				CC03DF491D11323F00E3660A /* Products */,
 				50ECD5AA68E41A5C55DC072E /* Pods */,
@@ -281,11 +323,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE9225BD206A0CDD008A8397 /* XYScrollView.m in Sources */,
 				CC03DF501D11323F00E3660A /* AppDelegate.m in Sources */,
 				CC03DF4D1D11323F00E3660A /* main.m in Sources */,
+				BE9225BB206A0CDD008A8397 /* XYView.m in Sources */,
 				CCD23D4A2048F56E00992D14 /* DemoModel.m in Sources */,
 				CCD23D582048FB7200992D14 /* DemoViewModel.m in Sources */,
 				CCD23D542048F8D700992D14 /* DemoViewCell.m in Sources */,
+				BE9225C0206A0FF7008A8397 /* NSObject+XYSwizzle.m in Sources */,
+				BE9225BA206A0CDD008A8397 /* XYViewModel.m in Sources */,
+				BE9225BC206A0CDD008A8397 /* XYViewController.m in Sources */,
 				CCD23D472048F56000992D14 /* DemoViewController.m in Sources */,
 				CCD23D4D2048F57B00992D14 /* DemoView.m in Sources */,
 			);

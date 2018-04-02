@@ -9,6 +9,7 @@
 #import "XYView.h"
 #import "XYViewModelProtocol.h"
 #import <ReactiveCocoa/ReactiveCocoa.h>
+#import "NSObject+XYSwizzle.h"
 
 @implementation XYView
 #pragma mark - Life cycle
@@ -16,11 +17,14 @@
     XYView *view = [super allocWithZone:zone];
     
     @weakify(view)
-    
     [[view rac_signalForSelector:@selector(updateConstraints)] subscribeNext:^(id x) {
         @strongify(view)
         [view xy_updateConstraints];
-    }];
+    }];     
+    
+    /*
+     [XYView xy_swizzlingInClass:[XYView class] originalSelector:@selector(updateConstraints) swizzledSelector:@selector(xy_updateConstraints)];
+     */
     
     return view;
 }
